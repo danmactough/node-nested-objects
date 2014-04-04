@@ -16,7 +16,7 @@
     "nested"
   ],
   "author": "Dan MacTough <danmactough@gmail.com>",
-  "license": "BSD",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/danmactough/node-nested-objects/issues"
   },
