@@ -1,6 +1,6 @@
 {
   "name": "nested-objects",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Work with deeply nested object properties using the method from https://github.com/powmedia/backbone-deep-model",
   "main": "nested-objects.js",
   "scripts": {
