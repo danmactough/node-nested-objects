@@ -1,0 +1,27 @@
+{
+  "name": "nested-objects",
+  "version": "0.0.0",
+  "description": "Work with deeply nested object properties using the method from https://github.com/powmedia/backbone-deep-model",
+  "main": "nested-objects.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danmactough/node-nested-objects.git"
+  },
+  "keywords": [
+    "objects",
+    "deep",
+    "nested"
+  ],
+  "author": "Dan MacTough <danmactough@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/danmactough/node-nested-objects/issues"
+  },
+  "homepage": "https://github.com/danmactough/node-nested-objects",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  }
+}
