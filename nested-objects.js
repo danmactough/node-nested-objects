@@ -92,7 +92,7 @@ function objToPaths (obj) {
   for (var key in obj) {
     var val = obj[key];
 
-    if (val && (val.constructor === Object &&  Object.keys(val).length) || (val.constructor === Array && val.length)) {
+    if (val && ((val.constructor === Object &&  Object.keys(val).length) || (val.constructor === Array && val.length))) {
       //Recursion for embedded objects
       var obj2 = objToPaths(val);
 
