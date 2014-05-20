@@ -38,10 +38,11 @@ describe('basic', function () {
     assert.strictEqual(source.b.B, undefined);
   });
   it('can flatten a nested object', function () {
-    var deep = { a: { b: [ 1, 2, 3 ] } };
+    var deep = { a: { b: [ 1, 2, 3, null ] } };
     var flat = { 'a.b.0': 1,
                  'a.b.1': 2,
-                 'a.b.2': 3 };
+                 'a.b.2': 3,
+                 'a.b.3': null };
     assert.deepEqual(nested.flatten(deep), flat);
   });
 });
