@@ -1,6 +1,8 @@
 node-nested-objects
 ===================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/danmactough/node-nested-objects.svg)](https://greenkeeper.io/)
+
 Work with deeply nested object properties using the method from https://github.com/powmedia/backbone-deep-model
 
 - - -
